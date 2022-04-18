@@ -2,3 +2,19 @@
     display: inline;
     text-align: center;
 }
+a:link
+{
+    color: green; 
+    text-decoration: none;
+}
+a:visited
+{
+    color: greenyellow;
+    text-decoration: none;
+}
+p{
+    color: green;
+}
+h1{
+    color:green
+}
