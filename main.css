@@ -1,28 +1,64 @@
-.nav-bar {
-    display: inline;
-    text-align: center;
+* {
+    font-family: 'Courier New';
+}
+body {
+    background-color: dimgray;
+    margin: 0px;
+}
+div.nav-bar {
+    padding: 4px;
+    margin: 1px;
+    border: 2px solid purple;
 }
 li.nav-bar {
     list-style-type: none;
     display: inline;
-    margin: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
     background-color:  lightgreen;
 }
 a:link
 {
-    color: green; 
+    color: darkred; 
     text-decoration: none;
 }
 a:visited
 {
-    color: greenyellow;
+    color: purple;
     text-decoration: none;
 }
 p{
     color: green;
 }
 h1{
-    color:green
+    color:green;
+}
+h2 {
+    color:white;
+}
+hr {
+    color: whitesmoke;
+    padding: 0px;
+    margin: 3px;
+}
+div {
+    background-color: black;
+}
+div.body {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 4px;
+    height: 100%
+}
+footer {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+footer > h3{
+    text-align: center;
 }
