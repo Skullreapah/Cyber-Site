@@ -31,12 +31,28 @@
     <p>According to Radware, an American cybersecurity company, Cookie Manipulation (Also called Cookie Poisoning) is the act of manipulating or forging a cookie (a small piece of data created and stored in a user's browser that keeps track of important information regarding their session information for a particular site) for the purpose of bypassing security measures or sending false information to a server.</p>
     <h2>Usage in the cybersecurity world</h2>
     <p>Cookie-Based authentication uses HTTP Cookies to authenticate client requests using stateless HTTP protocol. </p> 
+    <h3>Process for Cookie-Based Authentication</h3>
     <ol>
            <li>When a client sends a request to login, it goes to the backend server, the server verifies their credentials, and, if successful, a Set-Cookie is created. </li>
            <li>This cookie is saved locally, and the user needs this cookie to remain logged in.</li>
             <li>The cookie expires when the user logs out.</li>
     </ol>
-    <p></p>
+    <p>With token-based authentication, the user's state is stored on the client using JSON Web Token (JWT). <br>
+    A JWT Token is made up of 3 parts, which are all separated by dots.</p>
+    <h3>The Three Parts of a JWT Token:</h3>
+    <ul>
+        <li>JWT header</li>
+        <li>JWT payload</li>
+        <li>Signature</li>
+    </ul>
+
+    <h3>Process for Token-Based Authentication</h3>
+    <ol>
+           <li>The user logs in to the server, and the credentials are sent to the backend server. The server verifies these credentials.</li>
+           <li>The server generates an encrypted JWT and secret key, which are sent back to the client. The browser stores the token.</li>
+            <li>In the future, the server validates the signature by decoding the JWT token before responding.</li>
+            <li>The token on the client side expires when the user logs out.</li>
+    </ol>
 
     </div>
     <div class="footer">
