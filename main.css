@@ -61,6 +61,7 @@ div.body {
 }
 footer {
     background-color: black;
+    height: 50px;
     width: 100%;
     position: fixed;
     right: 0;
