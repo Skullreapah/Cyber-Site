@@ -67,3 +67,6 @@ footer {
 footer > h3{
     text-align: center;
 }
+li{
+    color: green;
+}
