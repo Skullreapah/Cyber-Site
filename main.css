@@ -1,6 +1,14 @@
-#navigation-panel {
+.nav-bar {
     display: inline;
     text-align: center;
+}
+li.nav-bar {
+    list-style-type: none;
+    display: inline;
+    margin: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:  lightgreen;
 }
 a:link
 {
