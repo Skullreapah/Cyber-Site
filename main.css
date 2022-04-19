@@ -61,11 +61,13 @@ div.body {
 }
 footer {
     background-color: black;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 50px;
     width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
 }
 footer > h3{
     text-align: center;
