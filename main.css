@@ -63,7 +63,7 @@ footer {
     background-color: black;
     height: 30px;
     width: 100%;
-    position: fixed;
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;
