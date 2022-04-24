@@ -1,6 +1,6 @@
 # Cyber-Site
 A website project for cyber security education 
 - [x] Create repository
-- [ ] Create the HTML pages
-- [ ] Create CSS
-- [ ] Create JS
+- [x] Create the HTML pages
+- [x] Create CSS
+- [x] Create JS
