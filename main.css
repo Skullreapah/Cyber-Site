@@ -72,6 +72,9 @@ footer {
 }
 footer > h3{
     text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: bold;
 }
 li{
     color: green;
