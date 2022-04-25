@@ -32,6 +32,10 @@
             {
                 document.getElementById("demo").innerHTML="This page has been refreshed";
             }
+            function breakpage() {
+                document.getElementById("about").innerHTML="Congrats! you have found the secret button and broke the main page!"
+                alert("You have broken the page!")
+            }
         </script>
     </div>
 
@@ -40,7 +44,7 @@
     <div class="footer">
         <footer>
             <h3><a href="sources.html">Sources</a></h3>
-    
+            <button onclick="breakpage()" style="color: green; background-color: black; font-size: x-small; float: left;">Press to break page</button>
         </footer>
     </div>
 </body>
