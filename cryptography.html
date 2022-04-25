@@ -6,6 +6,17 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <style>
+         /* Styling for the Table about encryption */
+         table {
+             background-color: rgb(37, 37, 37);
+             color: green;
+             border: 2px inset purple;
+         }
+         tr, th, td {
+            border: 1px solid white;
+         }
+    </style>
 </head>
 <body>
     
@@ -29,7 +40,24 @@
     <p><cite>According to Kaspersky</cite>, a russian cybersecurity company, cryptography is the study and practice of secure communications techniques that allow only the sender and intended recipient of a message to view its contents</p>
     <h2>Usage in the cybersecurity world</h2>
     <p>Cryptography is most commonly used to encrypt and decrypt messages such as emails and texts. An interesting method of keeping messages from being intercepted is through the use of "public key" systems. Users have a public key and a private key. The sender requests the public key of the reciever and sends an encrypted message. The reciever then uses their private key to decrypt the message. This means that third parties can't intercept and decrypt the message since they won't have the receiver's private key.</p>
-
+    <h2>Types of Encryption</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th># of Keys</th>
+            <th>Examples</th>
+        </tr>
+        <tr>
+            <td>Symmetric</td>
+            <td>1</td>
+            <td>DES, AES, TLS/SSL protocol</td>
+        </tr>
+        <tr>
+            <td>Asymmetric</td>
+            <td>2 (1 public, 1 private)</td>
+            <td>RSA,DSS,ECC</td>
+        </tr>
+    </table>
     </div>
     <div class="footer">
         <footer>
