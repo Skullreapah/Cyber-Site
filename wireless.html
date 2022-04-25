@@ -10,36 +10,62 @@
 <body>
     
     <div class="nav-bar">
-        <h1 class="nav-bar">Cyber Site</h1>
+        <h1 id="replace7" class="nav-bar">Cyber Site</h1>
         <ul>
         <li class="nav-bar"><a href="main.html">Home</a></li>
-        <li class="nav-bar"><a href="cryptography.html">Cryptography</a></li>
-        <li class="nav-bar"><a href="password.html">Password Security</a></li>
-        <li class="nav-bar"><a href="social.html">Social Engineering</a></li>
-        <li class="nav-bar"><a href="web.html">Web Exploitation</a></li>
-        <li class="nav-bar"><a href="sql.html">SQL</a></li>
-        <li class="nav-bar"><a href="cookie.html">Cookie & Token Manipulation</a></li>
-        <li class="nav-bar"><a href="wireless.html">Wireless hacking</a></li>
+        <li class="nav-bar"><a id="replace8" href="cryptography.html">Cryptography</a></li>
+        <li class="nav-bar"><a id="replace9" href="password.html">Password Security</a></li>
+        <li class="nav-bar"><a id="replace10" href="social.html">Social Engineering</a></li>
+        <li class="nav-bar"><a id="replace11" href="web.html">Web Exploitation</a></li>
+        <li class="nav-bar"><a id="replace12" href="sql.html">SQL</a></li>
+        <li class="nav-bar"><a id="replace13" href="cookie.html">Cookie & Token Manipulation</a></li>
+        <li class="nav-bar"><a id="replace14" href="wireless.html">Wireless hacking</a></li>
         </ul>
     </div>
     <hr>
     <div class="body">
-    <h1>Wireless hacking</h1>
-    <h2>What is "Wireless Hacking"?</h2>
-    <p>Wireless Hacking is typically defined as attacks on wireless networks or access points in which hackers use a variety of methods in order to gain access to a network and monitor it. This can be done maliciously but there are also cases where it is used for ethical purposes such as wiretapping.</p>
-    <h2>How Wireless Hacking is done</h2>
-    <p>One way Wireless Hacking is done is through "packet sniffing", this can be done through hardware such as a networktap or through software such as Wireshark.</p>
-    <p>During the sniffing process, a hacker can obtain the network's SSID from which they then move on to cracking the password to the network which can be done through various softwares such as WEPcrack on Windows or Aircrack-ng on Linux</p>
-    <p>Another form of Wireless Hacking is using Denial of Service (DoS) attacks which involves flooding a network's travid to the point where connections to the network slow down or even close completely. This can be done using programs such as Plyoris or Low Orbit Ion Cannon which can be found online.</p>
-
+    <h1 id="page_heading">Wireless hacking</h1>
+    
+    <h2 id="replace1">What is "Wireless Hacking"?</h2>
+    <p id="replace2">Wireless Hacking is typically defined as attacks on wireless networks or access points in which hackers use a variety of methods in order to gain access to a network and monitor it. This can be done maliciously but there are also cases where it is used for ethical purposes such as wiretapping.</p>
+    <h2 id="replace3">How Wireless Hacking is done</h2>
+    <p id="replace4">One way Wireless Hacking is done is through "packet sniffing", this can be done through hardware such as a networktap or through software such as Wireshark.</p>
+    <p id="replace5">During the sniffing process, a hacker can obtain the network's SSID from which they then move on to cracking the password to the network which can be done through various softwares such as WEPcrack on Windows or Aircrack-ng on Linux</p>
+    <p id="replace6">Another form of Wireless Hacking is using Denial of Service (DoS) attacks which involves flooding a network's travid to the point where connections to the network slow down or even close completely. This can be done using programs such as Plyoris or Low Orbit Ion Cannon which can be found online.</p>
+    <div id="image_insert"></div>
     <hr> <br> <br> <!-- Keeps last line of text from being covered by the footer.-->
     </div>
     <div class="footer">
         <footer>
             <h3><a href="sources.html">Sources</a></h3>
-    
+            <p onmouseover="easteregg()" style="float: right; margin-right: 50px;">Secret text</p>
         </footer>
     </div>
-
+    <script>
+        // Create image object for the image of the easter egg
+        var egg_img = document.createElement("img"); 
+        egg_img.src = "https://www.kindpng.com/picc/m/698-6981853_yellow-easter-egg-clip-art-hd-png-download.png"
+        egg_img.height = "500";
+        function easteregg() {
+            // Replacing text on page and then sending an alert
+            document.getElementById("image_insert").appendChild(egg_img);
+            document.getElementById("page_heading").innerHTML="Here's the easter egg";
+            document.getElementById("replace1").innerHTML="What is \"Easter egg\"?";
+            document.getElementById("replace2").innerHTML  ="Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg ";
+            document.getElementById("replace3").innerHTML="How Easter Egg is Done?";
+            document.getElementById("replace4").innerHTML  ="Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg ";
+            document.getElementById("replace5").innerHTML  ="Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg ";
+            document.getElementById("replace6").innerHTML  ="Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg Easter Egg ";
+            document.getElementById("replace7").innerHTML="Easter Site";
+            document.getElementById("replace8").innerHTML="Eastereggography";
+            document.getElementById("replace9").innerHTML="Easter Egg Security";
+            document.getElementById("replace10").innerHTML="Easter Egg Engineering";
+            document.getElementById("replace11").innerHTML="Easter Egg Exploitation";
+            document.getElementById("replace12").innerHTML="eaSter egg QL";
+            document.getElementById("replace13").innerHTML="Easter & Egg Manipulation";
+            document.getElementById("replace14").innerHTML="Easter Egg Hacking";
+            alert("Congrats! You found the easter egg!");
+        }
+    </script>
 </body>
 </html>
