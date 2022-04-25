@@ -21,6 +21,16 @@
          tr:hover {
              background-color: black;
          }
+         /* Animation for table  */
+         @keyframes tablehead {
+             0% {background-color: black; color: green;}
+             100% {background-color: green; color: black;}
+         }
+         #tablehead {
+             animation: tablehead 1s;
+             animation-iteration-count: infinite;
+             animation-direction: alternate;
+         }
     </style>
 </head>
 <body>
@@ -47,7 +57,7 @@
     <p>Cryptography is most commonly used to encrypt and decrypt messages such as emails and texts. An interesting method of keeping messages from being intercepted is through the use of "public key" systems. Users have a public key and a private key. The sender requests the public key of the reciever and sends an encrypted message. The reciever then uses their private key to decrypt the message. This means that third parties can't intercept and decrypt the message since they won't have the receiver's private key.</p>
     <h2>Types of Encryption</h2>
     <table>
-        <tr>
+        <tr id="tablehead">
             <th>Type</th>
             <th># of Keys</th>
             <th>Examples</th>
